@@ -1,8 +1,11 @@
-import Footer from "./Header and Footer/Footer";
-import Header from "./Header and Footer/Header";
+import Header2 from "../header/header";
+import Footer from "../footer/footer";
+
 const Events = () => {
   return (
     <>
+              <Header2/>
+
       <div className="container">
         <div>
           <h1>
@@ -10,7 +13,6 @@ const Events = () => {
             <span className="highlight">Puppet</span>
             Adventures
           </h1>
-          <Header />
           </div>
 
           <main>
@@ -23,7 +25,7 @@ const Events = () => {
           </main>
         
         
-        <Footer />
+        <Footer/>
       </div>
     </>
   );
